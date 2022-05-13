@@ -32,8 +32,28 @@
         width: 100%;
     }
 }
+/* mobile screen */
 @media only screen and (max-width: 600px) {
     .div3, .div4 {
         width: 100%;
+    }
+    .div3, .div4{
+        border: 1px solid blue;
+        margin-bottom: 10px;
+    }
+}
+/* tablet screen */
+@media only screen and (min-width:600px) and (max-width:768px){
+    .div3, .div4{
+        float: left;
+        width: 50%;
+        
+    }
+}
+/* Desktop screen */
+@media only screen and (min-width:768px) and (max-width: 1200px){
+    .div3, .div4{
+        width: 100%;
+        
     }
 }
