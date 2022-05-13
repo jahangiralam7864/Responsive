@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.div1{
+    float: left;
+    width: 40%;
+    border: 1px solid green;
+    padding: 5px;
+}
+.div2{
+    float: left;
+    width: 60%;
+    border: 1px solid red;
+    padding: 5px;
+}
+.div3{
+    float: left;
+    width: 50%;
+    background-color: green;
+}
+.div4{
+    float: left;
+    width: 50%;
+    background-color: red;
+}
+/* responsive  */
+.clearfixt{
+    clear:both;
+}
+@media (max-width: 600px){
+    .div1, .div2{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .div3, .div4 {
+        width: 100%;
+    }
+}
