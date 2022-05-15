@@ -57,3 +57,28 @@
         
     }
 }
+
+/* grid container */
+.grid-container{
+    display: grid;
+    
+    gap: 1rem;
+    grid-template-columns: 70% 30%;
+}
+
+/* grid colum  */
+.product{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.product-1{
+    background-color: green;
+}
+.product-2{
+    background-color: red;
+}
+.product-3{
+    background-color: green;
+}
