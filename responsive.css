@@ -82,3 +82,14 @@
 .product-3{
     background-color: green;
 }
+
+@media only screen and (min-width: 500px) and (max-width: 768px){
+    .product-1, .product-2, .product-3 {
+        width: 50%;
+        grid-template-columns: 100%;
+
+    }
+    .product h1{
+        font-size: 15px;
+    }
+}
